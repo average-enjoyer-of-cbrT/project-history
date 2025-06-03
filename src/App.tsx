@@ -7,7 +7,7 @@ import { events } from './data/events';
 
 function App() {
   return (
-    <>
+    <div className="min-h-screen flex flex-col">
       <div className="mist-background"></div>
       <Routes>
         <Route path="/" element={<Layout />}>
@@ -21,7 +21,7 @@ function App() {
           ))}
         </Route>
       </Routes>
-    </>
+    </div>
   );
 }
 
