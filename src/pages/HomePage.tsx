@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Hero from '../components/Hero';
+import GlobalTimeline from '../components/GlobalTimeline';
 import { events } from '../data/events';
 
 const HomePage: React.FC = () => {
@@ -12,6 +13,10 @@ const HomePage: React.FC = () => {
         backgroundImage="https://images.pexels.com/photos/1776444/pexels-photo-1776444.jpeg?auto=compress&cs=tinysrgb&w=1600"
       />
       
+      <section className="mb-16">
+        <GlobalTimeline />
+      </section>
+
       <section className="mb-16">
         <h2 className="section-title">О войне</h2>
         <p className="mb-6 leading-relaxed">
