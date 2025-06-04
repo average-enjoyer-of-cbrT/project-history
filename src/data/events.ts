@@ -6,7 +6,7 @@ export const events: Event[] = [
     id: "barbarossa",
     title: "Начало войны (Операция «Барбаросса»)",
     date: "22 июня 1941 г.",
-    coverImage: "https://images.pexels.com/photos/4913738/pexels-photo-4913738.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    coverImage: "https://avatars.mds.yandex.net/i?id=fce8ba09fab7c9016d57e2ac0f49b8f1_l-5232384-images-thumbs&n=13",
     shortDescription: "Германия нарушает пакт о ненападении и вторгается в СССР. Три группы армий («Север», «Центр», «Юг») идут к Ленинграду, Москве и Киеву.",
     description: [
       "В 4 часа утра 22 июня 1941 года Германия начала операцию «Барбаросса» — крупнейшее военное вторжение в истории. Три группы армий двинулись к Ленинграду, Москве и Киеву. Советский Союз оказался не готов к такому удару, фронт рушился, а советские войска несли огромные потери.",
@@ -25,7 +25,7 @@ export const events: Event[] = [
     id: "encirclements-1941",
     title: "Окружения под Минском, Смоленском, Киевом",
     date: "июнь–сентябрь 1941 г.",
-    coverImage: "https://images.pexels.com/photos/4913740/pexels-photo-4913740.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    coverImage: "https://avatars.mds.yandex.net/i?id=8bc86e87da77e1667c5c3b9a0ed09508_l-5241638-images-thumbs&n=13",
     shortDescription: "Массовые потери. Фраза 'немцы продвигаются стремительно' стала мантрой новостей.",
     description: [
       "После молниеносного начала операции «Барбаросса» вермахт продвигался на восток с пугающей скоростью. Советское командование не успевало реагировать на удары противника, а структура управления сыпалась под давлением событий. В результате в течение лета и начала осени 1941 года произошли три крупнейшие трагедии начала войны — окружения под Минском, Смоленском и Киевом.",
@@ -43,7 +43,7 @@ export const events: Event[] = [
     id: "leningrad-blockade",
     title: "Начало блокады Ленинграда",
     date: "8 сентября 1941 г.",
-    coverImage: "https://images.pexels.com/photos/4913739/pexels-photo-4913739.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    coverImage: "https://cdnn21.img.ria.ru/images/156366/63/1563666329_0:1353:2047:2504_1920x0_80_0_0_8cc7c0b612a8250b3eab14d60373ba39.jpg",
     shortDescription: "Кольцо замкнуто. Миллион погибших, из которых почти половина — от голода.",
     description: [
       "8 сентября 1941 года немецкие и финские войска окончательно замкнули кольцо окружения вокруг Ленинграда. Началась одна из самых страшных страниц Второй мировой войны — блокада, длившаяся 872 дня. Это было не просто осада: это была попытка стереть город с лица земли через голод, страх и разрушения.",
@@ -62,7 +62,7 @@ export const events: Event[] = [
     id: "moscow-battle",
     title: "Битва за Москву",
     date: "30 сентября 1941 г.",
-    coverImage: "https://images.pexels.com/photos/4913740/pexels-photo-4913740.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    coverImage: "https://cdn.culture.ru/images/519b82d1-efc5-5ff3-b533-271d4b0b4600",
     shortDescription: "Немцы в 30 км от столицы. Советское командование запускает эвакуацию и мобилизацию.",
     description: [
       "Битва за Москву стала решающим эпизодом начального периода Великой Отечественной войны. С конца сентября 1941 года немецкая группа армий «Центр» начала операцию «Тайфун» — стремительное наступление с целью захвата советской столицы. План был прост: прорвать фронт, окружить советские войска и взять Москву до зимы. Проблема в том, что простыми эти планы были только на бумаге.",
@@ -82,7 +82,7 @@ export const events: Event[] = [
     id: "kharkov-disaster",
     title: "Харьковская катастрофа",
     date: "май 1942 г.",
-    coverImage: "https://images.pexels.com/photos/4913351/pexels-photo-4913351.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    coverImage: "https://avatars.dzeninfra.ru/get-zen_doc/9704999/pub_645e214e0b942a7054730118_645e22fe2159f72a5371f6a2/scale_1200",
     shortDescription: "Красная армия пошла в наступление и опять попала в мешок. Зачем? Хороший вопрос.",
     description: [
       "После зимнего контрнаступления под Москвой в верхах появилось легкомысленное чувство, что немецкая машина трещит по швам. На волне этого оптимизма советское командование решает начать новое наступление — на Харьков. Цель: отбросить немцев, освободить стратегически важный город, укрепить позиции на юге. В общем, амбиции — уровня «давайте повторим зиму, но весной». Спойлер: весной всё тает, включая здравый смысл.",
@@ -100,7 +100,7 @@ export const events: Event[] = [
     id: "blau-operation",
     title: "Операция «Блау»",
     date: "28 июня 1942 г.",
-    coverImage: "https://images.pexels.com/photos/4913351/pexels-photo-4913351.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    coverImage: "https://reibert.info/media/screenshot_11-png.270930/full",
     shortDescription: "Новый удар немцев на юг, к Кавказу. Цель — нефть и Сталинград.",
     description: [
       "Операция «Блау» (она же «Синяя») — стратегическое наступление вермахта летом 1942 года, цель которого была проста и одновременно безумно амбициозна: прорваться на юг СССР, захватить Кавказ и взять под контроль жизненно важные нефтяные месторождения, а заодно и Сталинград — крупнейший промышленный и транспортный узел на Волге.",
@@ -119,7 +119,7 @@ export const events: Event[] = [
     id: "stalingrad-battle",
     title: "Сталинградская битва",
     date: "17 июля 1942 г.",
-    coverImage: "https://images.pexels.com/photos/14032828/pexels-photo-14032828.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    coverImage: "https://culture38.ru/app/uploads/2023/02/01-e1675234287100.jpg",
     shortDescription: "Одно из самых кровавых сражений в истории человечества. Ад на земле.",
     description: [
       "Сталинградская битва — это не просто сражение. Это мясорубка, поставленная на промышленные рельсы. Один из самых кровавых конфликтов в истории человечества, где война перестала быть фронтом и превратилась в каждый дом, каждую лестницу, каждую руину.",
@@ -139,7 +139,7 @@ export const events: Event[] = [
     id: "paulus-capitulation",
     title: "Капитуляция армии Паулюса под Сталинградом",
     date: "2 февраля 1943 г.",
-    coverImage: "https://images.pexels.com/photos/5461920/pexels-photo-5461920.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    coverImage: "https://mf.b37mrtl.ru/russian/images/2023.02/original/63da4146ae5ac97d2b530f9f.jpeg",
     shortDescription: "6-я армия сдалась. Гитлер в истерике, СССР ликует.",
     description: [
       "2 февраля 1943 года завершилась Сталинградская битва — и вместе с ней рухнул миф о непобедимости немецкой армии. В этот день капитулировала 6-я армия вермахта под командованием фельдмаршала Фридриха Паулюса. Это стало не просто военной победой — это был психологический надлом, стратегический поворот, и по сути — начало конца Третьего рейха.",
@@ -159,7 +159,7 @@ export const events: Event[] = [
     id: "kursk-battle",
     title: "Курская битва",
     date: "5 июля – 23 августа 1943 г.",
-    coverImage: "https://images.pexels.com/photos/5842248/pexels-photo-5842248.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    coverImage: "https://avatars.dzeninfra.ru/get-zen_doc/271828/pub_679f093efa13e209b0ae0674_679f0a5152086544920f6d57/scale_1200",
     shortDescription: "Самая большое танковое сражение в истории. Немцы снова проиграли, фронт больше не отходит назад.",
     description: [
       "Курская битва стала поворотным моментом в Великой Отечественной войне и одновременно самым крупным танковым сражением в истории человечества. После поражения под Сталинградом Германия отчаянно пыталась вернуть инициативу. Операция получила кодовое название «Цитадель» — потому что звучит пафосно, и потому что кто-то в ставке Гитлера ещё верил в магию громких слов.",
@@ -177,7 +177,7 @@ export const events: Event[] = [
     id: "ukraine-liberation",
     title: "Освобождение Левобережной Украины",
     date: "26 августа – декабрь 1943 г.",
-    coverImage: "https://images.pexels.com/photos/5842251/pexels-photo-5842251.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    coverImage: "https://cdn.iz.ru/sites/default/files/styles/1065xh/public/photo_item-2024-08/RIA_5479159.HR_.jpg?itok=NdOkxUvw",
     shortDescription: "Началось массовое изгнание немцев из СССР. Процесс пошёл.",
     description: [
       "После победы на Курской дуге Красная армия больше не останавливалась. Впервые за два года война перестала быть серией оборонительных операций — теперь она двигалась только вперёд. Освобождение Левобережной Украины стало одним из ключевых этапов этого наступательного периода. Речь шла не просто о территориях — это была борьба за огромный промышленный и сельскохозяйственный регион, логистически важный и символически значимый.",
@@ -195,7 +195,7 @@ export const events: Event[] = [
     id: "dnepr-crossing",
     title: "Форсирование Днепра",
     date: "сентябрь–ноябрь 1943 г.",
-    coverImage: "https://images.pexels.com/photos/5842251/pexels-photo-5842251.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    coverImage: "https://waralbum.ru/wp-content/uploads/2016/05/Sovet_soldati-forsiruiut-Vislu_1945.jpg",
     shortDescription: "Переправа через реку под огнём. На чём попало, часто вплавь. Героизм за гранью разумного.",
     description: [
       "После освобождения Левобережной Украины Красная армия вплотную подошла к Днепру — огромной природной преграде, длиной более 2 000 км и шириной в некоторых местах до 3 км. Немцы рассчитывали, что река станет новым «непреодолимым» рубежом, своего рода восточным аналогом Атлантического вала. Они начали укреплять правый берег, создавая так называемый «Восточный вал» — систему оборонительных рубежей, траншей, дотов, минных полей и артиллерийских позиций.",
@@ -213,7 +213,7 @@ export const events: Event[] = [
     id: "leningrad-lift",
     title: "Полный прорыв блокады Ленинграда",
     date: "27 января 1944 г.",
-    coverImage: "https://images.pexels.com/photos/4913739/pexels-photo-4913739.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    coverImage: "https://cdn.culture.ru/images/f2e9d7d7-53b2-5058-b2a6-47f8bc12f610",
     shortDescription: "872 дня ада закончились. Город не сдался. Кто молодец? Ленинград молодец.",
     description: [
       "27 января 1944 года блокада Ленинграда была полностью снята. Город выстоял, несмотря на все ужасы и потери."
@@ -227,7 +227,7 @@ export const events: Event[] = [
     id: "bagration",
     title: "Операция «Багратион»",
     date: "23 июня – 29 августа 1944 г.",
-    coverImage: "https://images.pexels.com/photos/5842255/pexels-photo-5842255.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    coverImage: "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/c8461efa-ea06-404c-8f3f-37ec7e16f1cf/1920x",
     shortDescription: "Разгром группы армий «Центр», освобождение Беларуси. Самая успешная операция войны по масштабам.",
     description: [
       "Операция «Багратион» — крупнейшее наступление Красной армии летом 1944 года. В результате была освобождена Беларусь и разгромлена группа армий «Центр»."
@@ -241,7 +241,7 @@ export const events: Event[] = [
     id: "baltic-poland-liberation",
     title: "Освобождение Прибалтики, Польши, части Румынии и Югославии",
     date: "июль–октябрь 1944 г.",
-    coverImage: "https://images.pexels.com/photos/5842252/pexels-photo-5842252.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    coverImage: "https://waralbum.ru/wp-content/uploads/2010/11/katyusha.jpg",
     shortDescription: "Советская армия шагает по Европе. Танки громят, немецкие войска пятятся.",
     description: [
       "Летом и осенью 1944 года Красная армия освободила Прибалтику, Польшу, часть Румынии и Югославии. Немцы отступают, советские войска входят в Европу."
@@ -255,7 +255,7 @@ export const events: Event[] = [
     id: "belgrade-liberation",
     title: "Освобождение Белграда",
     date: "20 октября 1944 г.",
-    coverImage: "https://images.pexels.com/photos/5842253/pexels-photo-5842253.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    coverImage: "https://avatars.dzeninfra.ru/get-zen_doc/1654267/pub_5cdfd4899ad6b100b3c9e021_5cdfde88044f7f00b36370bc/scale_1200",
     shortDescription: "Совместно с югославскими партизанами. Сталин и Тито делают селфи.",
     description: [
       "20 октября 1944 года советские войска совместно с югославскими партизанами освободили Белград. Это был важный шаг к освобождению Балкан."
@@ -269,7 +269,7 @@ export const events: Event[] = [
     id: "vistula-oder",
     title: "Висло-Одерская операция",
     date: "12 января 1945 г.",
-    coverImage: "https://images.pexels.com/photos/5842254/pexels-photo-5842254.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    coverImage: "https://cdn.culture.ru/images/d74d9530-4893-5d00-bd66-17ec133507f9",
     shortDescription: "Молниеносное наступление. Советские войска в 70 км от Берлина. Немцы в панике.",
     description: [
       "В январе 1945 года Красная армия провела Висло-Одерскую операцию — стремительное наступление, в результате которого советские войска оказались в 70 км от Берлина."
@@ -283,7 +283,7 @@ export const events: Event[] = [
     id: "budapest-liberation",
     title: "Освобождение Будапешта",
     date: "13 февраля 1945 г.",
-    coverImage: "https://images.pexels.com/photos/5842255/pexels-photo-5842255.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    coverImage: "https://cdn5.vedomosti.ru/image/2020/3w/1ff20f/original-1umz.jpg",
     shortDescription: "Венгрия больше не союзник Германии.",
     description: [
       "13 февраля 1945 года советские войска освободили Будапешт. Венгрия вышла из войны на стороне Германии."
@@ -297,7 +297,7 @@ export const events: Event[] = [
     id: "dresden-bombing",
     title: "Дрезденская бомбардировка",
     date: "13–15 февраля 1945 г.",
-    coverImage: "https://images.pexels.com/photos/5842254/pexels-photo-5842254.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    coverImage: "https://avatars.dzeninfra.ru/get-zen_doc/271828/pub_67afa06f36a76d12eab7e612_67afa1f736a76d12eab832eb/scale_1200",
     shortDescription: "Союзники решили показать, что у них тоже есть спорные методы.",
     description: [
       "В феврале 1945 года союзники провели массированную бомбардировку Дрездена. Город был практически уничтожен, погибло десятки тысяч мирных жителей."
@@ -311,7 +311,7 @@ export const events: Event[] = [
     id: "berlin-battle",
     title: "Битва за Берлин",
     date: "16 апреля – 2 мая 1945 г.",
-    coverImage: "https://images.pexels.com/photos/5842249/pexels-photo-5842249.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    coverImage: "https://s10.stc.all.kpcdn.net/best/kirov/reichstag/images/d076d605-0a85-4370-bf9a-5de15e5f4ab1__fgreyhstag1945ishagin.jpg",
     shortDescription: "Город превращён в руины. Немцы отчаянно защищаются. Советские войска входят в центр.",
     description: [
       "Битва за Берлин — последнее крупное сражение войны в Европе. Город был превращён в руины, но советские войска прорвались в центр и водрузили знамя Победы над Рейхстагом."
@@ -325,7 +325,7 @@ export const events: Event[] = [
     id: "hitler-death",
     title: "Самоубийство Гитлера",
     date: "30 апреля 1945 г.",
-    coverImage: "https://images.pexels.com/photos/5842250/pexels-photo-5842250.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    coverImage: "https://avatars.mds.yandex.net/i?id=43501cabda73443f5c976fe85588f485_l-5873534-images-thumbs&n=13",
     shortDescription: "Фюрер покинул чат. Все выдохнули.",
     description: [
       "30 апреля 1945 года Адольф Гитлер покончил с собой в бункере. Это стало символическим концом нацистской Германии."
@@ -339,7 +339,7 @@ export const events: Event[] = [
     id: "reichstag-capture",
     title: "Захват Рейхстага",
     date: "2 мая 1945 г.",
-    coverImage: "https://images.pexels.com/photos/5842250/pexels-photo-5842250.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    coverImage: "https://img.tsargrad.tv/cache/2/1/-01.png/w1056h594fill.png",
     shortDescription: "Красное знамя водружено. Фото становится легендарным. СССР празднует.",
     description: [
       "2 мая 1945 года советские войска захватили Рейхстаг и водрузили над ним Красное знамя. Этот момент стал символом Победы."
@@ -353,7 +353,7 @@ export const events: Event[] = [
     id: "germany-capitulation",
     title: "Капитуляция Германии",
     date: "8–9 мая 1945 г.",
-    coverImage: "https://images.pexels.com/photos/5842253/pexels-photo-5842253.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    coverImage: "https://a.d-cd.net/69234aes-1920.jpg",
     shortDescription: "В Берлине. Официальная Победа. Всё. Конец. Ура.",
     description: [
       "8–9 мая 1945 года в Берлине был подписан акт о безоговорочной капитуляции Германии. Война в Европе закончилась. Победа!"
