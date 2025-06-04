@@ -12,19 +12,34 @@ interface EventPageProps {
 const EventPage: React.FC<EventPageProps> = ({ eventId }) => {
   const navigate = useNavigate();
   const event = events.find(e => e.id === eventId);
-  
+
+  // Кнопки перехода между событиями
+  const currentIndex = events.findIndex(e => e.id === eventId);
+  const prevEvent = currentIndex > 0 ? events[currentIndex - 1] : null;
+  const nextEvent = currentIndex < events.length - 1 ? events[currentIndex + 1] : null;
+
+  // Анимация для перехода
+  const [transition, setTransition] = React.useState<'none' | 'left' | 'right'>('none');
+
   useEffect(() => {
     if (!event) {
       navigate('/');
     }
-    
     window.scrollTo(0, 0);
   }, [event, navigate, eventId]);
-  
+
+  const handleNavigate = (id: string, direction: 'left' | 'right') => {
+    setTransition(direction);
+    setTimeout(() => {
+      navigate(`/events/${id}`);
+      setTransition('none');
+    }, 350);
+  };
+
   if (!event) return null;
-  
+
   return (
-    <div className="animate-fadeIn">
+    <div className={`animate-fadeIn relative transition-transform duration-300 ${transition === 'left' ? '-translate-x-16 opacity-0' : ''} ${transition === 'right' ? 'translate-x-16 opacity-0' : ''}`}>
       <Hero 
         title={event.title}
         subtitle={event.date}
@@ -79,6 +94,28 @@ const EventPage: React.FC<EventPageProps> = ({ eventId }) => {
           </div>
         </section>
       )}
+      
+      {/* Кнопки навигации */}
+      <div className="flex justify-between items-center mt-12">
+        {prevEvent ? (
+          <button
+            className="group flex items-center gap-2 px-5 py-3 rounded-lg bg-black/40 border border-gray-700 hover:bg-black/70 transition-all shadow-lg"
+            onClick={() => handleNavigate(prevEvent.id, 'left')}
+          >
+            <span className="text-2xl">←</span>
+            <span className="text-sm text-gray-300 group-hover:text-white transition-colors">{prevEvent.title}</span>
+          </button>
+        ) : <div />}
+        {nextEvent ? (
+          <button
+            className="group flex items-center gap-2 px-5 py-3 rounded-lg bg-black/40 border border-gray-700 hover:bg-black/70 transition-all shadow-lg"
+            onClick={() => handleNavigate(nextEvent.id, 'right')}
+          >
+            <span className="text-sm text-gray-300 group-hover:text-white transition-colors">{nextEvent.title}</span>
+            <span className="text-2xl">→</span>
+          </button>
+        ) : <div />}
+      </div>
     </div>
   );
 };
