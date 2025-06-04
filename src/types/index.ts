@@ -16,11 +16,12 @@ export interface Event {
   coverImage: string;
   shortDescription: string;
   description: string[];
-  photos: Photo[];
+  photos?: string[];
   timeline?: TimelineEvent[];
   significance?: string[];
   casualties?: {
     soviet: string;
     german: string;
   };
+  coordinates?: [number, number]; // Добавляем координаты
 }
