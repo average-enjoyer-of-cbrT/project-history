@@ -100,7 +100,7 @@ const EventMap: React.FC<EventMapProps> = ({ events = allEvents, currentEventId 
           const coverImage = feature.get('coverImage');
           popupContent.current!.innerHTML = `
             <div class="bg-black/90 px-3 py-2 rounded-lg border border-gray-700 flex items-center gap-3 max-w-xs">
-              <img src="${coverImage}" alt="${title}" class="w-16 h-16 object-cover rounded-md border border-gray-700" />
+              <img src="${coverImage}" alt="${title}" class="w-14 h-14 min-w-0 max-w-14 max-h-14 object-cover rounded-md border border-gray-700" />
               <div>
                 <div class="font-medium text-sm text-white mb-1">${title}</div>
                 <div class="text-xs text-gray-300 mb-1">${date}</div>

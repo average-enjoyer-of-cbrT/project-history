@@ -1,5 +1,6 @@
 export const eventLocations = {
   'barbarossa': [49.8397, 24.0297], // Минск
+  'brest-fortress': [52.082710, 23.652643], // Брест
   'encirclements-1941': [53.9045, 27.5615], // Минск
   'leningrad-blockade': [59.9311, 30.3609], // Ленинград
   'moscow-battle': [55.7558, 37.6173], // Москва
