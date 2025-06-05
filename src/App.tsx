@@ -1,4 +1,3 @@
-import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
 import HomePage from './pages/HomePage';
@@ -7,7 +6,7 @@ import { events } from './data/events';
 
 function App() {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen relative">
       <div className="mist-background"></div>
       <Routes>
         <Route path="/" element={<Layout />}>

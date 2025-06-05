@@ -41,7 +41,7 @@ const EventPage: React.FC<EventPageProps> = ({ eventId }) => {
 
   return (
     <>
-      <div className={`animate-fadeIn relative transition-transform duration-300 ${transition === 'left' ? '-translate-x-16 opacity-0' : ''} ${transition === 'right' ? 'translate-x-16 opacity-0' : ''}`}>
+      <div className={`animate-fadeIn relative duration-300 pb-32 ${transition === 'left' ? '-translate-x-16 opacity-0' : ''} ${transition === 'right' ? 'translate-x-16 opacity-0' : ''}`}>
         <Hero 
           title={event.title}
           subtitle={event.date}
@@ -64,7 +64,8 @@ const EventPage: React.FC<EventPageProps> = ({ eventId }) => {
             id: e.id,
             title: e.title,
             date: e.date,
-            coordinates: e.coordinates || [54.5, 25]
+            coordinates: e.coordinates || [54.5, 25],
+            coverImage: e.coverImage
           }))}
           currentEventId={eventId}
         />
@@ -109,57 +110,59 @@ const EventPage: React.FC<EventPageProps> = ({ eventId }) => {
           </div>
         </section>
       )}
-      
-      {/* Кнопки навигации */}
-      <div className="fixed bottom-0 left-0 w-full z-50 flex justify-center pointer-events-none">
-        <div className="w-full max-w-6xl px-2 pb-4 flex justify-between items-end gap-2 pointer-events-auto">
-          {prevEvent ? (
-            <button
-              className="group flex items-center gap-4 px-4 py-3 rounded-2xl bg-black/80 backdrop-blur-md border border-gray-700/50 hover:bg-black/90 transition-all duration-300 shadow-lg hover:shadow-2xl hover:-translate-x-2 pointer-events-auto"
-              onClick={() => handleNavigate(prevEvent.id, 'left')}
-            >
-              <div className="w-10 h-10 rounded-lg overflow-hidden border border-gray-700/50 group-hover:border-gray-600/50 transition-all">
-                <img 
-                  src={prevEvent.coverImage} 
-                  alt={prevEvent.title}
-                  className="w-full h-full object-cover filter grayscale group-hover:grayscale-0 transition-all"
-                />
-              </div>
-              <div className="flex flex-col items-start">
-                <span className="text-xs text-gray-400 font-medium mb-1">
-                  ← {prevEvent.date}
-                </span>
-                <span className="text-sm text-gray-200 group-hover:text-white transition-colors line-clamp-2 max-w-[120px] md:max-w-[200px]">
-                  {prevEvent.title}
-                </span>
-              </div>
-            </button>
-          ) : <div />}
-          {nextEvent ? (
-            <button
-              className="group flex items-center gap-4 px-4 py-3 rounded-2xl bg-black/80 backdrop-blur-md border border-gray-700/50 hover:bg-black/90 transition-all duration-300 shadow-lg hover:shadow-2xl hover:translate-x-2 pointer-events-auto"
-              onClick={() => handleNavigate(nextEvent.id, 'right')}
-            >
-              <div className="flex flex-col items-end">
-                <span className="text-xs text-gray-400 font-medium mb-1">
-                  {nextEvent.date} →
-                </span>
-                <span className="text-sm text-gray-200 group-hover:text-white transition-colors line-clamp-2 max-w-[120px] md:max-w-[200px]">
-                  {nextEvent.title}
-                </span>
-              </div>
-              <div className="w-10 h-10 rounded-lg overflow-hidden border border-gray-700/50 group-hover:border-gray-600/50 transition-all">
-                <img 
-                  src={nextEvent.coverImage} 
-                  alt={nextEvent.title}
-                  className="w-full h-full object-cover filter grayscale group-hover:grayscale-0 transition-all"
-                />
-              </div>
-            </button>
-          ) : <div />}
-        </div>
       </div>
-      {/* конец блока кнопок */}
+      {/* Кнопки навигации — фиксированная версия поверх всего */}
+      <div className="fixed inset-x-0 bottom-0 z-50 pointer-events-none">
+        <div className="max-w-7xl mx-auto px-4 pb-6">
+          <div className="flex justify-between items-center pointer-events-auto">
+            {prevEvent ? (
+              <button
+                aria-label={`К предыдущему событию: ${prevEvent.title}`}
+                className="group flex items-center gap-2 sm:gap-4 px-3 sm:px-6 py-3 sm:py-4 rounded-2xl bg-black/70 backdrop-blur-md border border-gray-700/50 hover:bg-black/90 transition-all duration-300 shadow-lg hover:shadow-2xl hover:-translate-x-2 text-xs sm:text-base"
+                onClick={() => handleNavigate(prevEvent.id, 'left')}
+              >
+                <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-lg overflow-hidden border border-gray-700/50 group-hover:border-gray-600/50 transition-all">
+                  <img 
+                    src={prevEvent.coverImage} 
+                    alt={prevEvent.title}
+                    className="w-full h-full object-cover filter grayscale group-hover:grayscale-0 transition-all"
+                  />
+                </div>
+                <div className="flex flex-col items-start">
+                  <span className="text-[10px] sm:text-xs text-gray-400 font-medium mb-1">
+                    ← {prevEvent.date}
+                  </span>
+                  <span className="text-xs sm:text-sm text-gray-200 group-hover:text-white transition-colors line-clamp-2 max-w-[120px] sm:max-w-[200px]">
+                    {prevEvent.title}
+                  </span>
+                </div>
+              </button>
+            ) : <div />}
+            {nextEvent ? (
+              <button
+                aria-label={`К следующему событию: ${nextEvent.title}`}
+                className="group flex items-center gap-2 sm:gap-4 px-3 sm:px-6 py-3 sm:py-4 rounded-2xl bg-black/70 backdrop-blur-md border border-gray-700/50 hover:bg-black/90 transition-all duration-300 shadow-lg hover:shadow-2xl hover:translate-x-2 text-xs sm:text-base"
+                onClick={() => handleNavigate(nextEvent.id, 'right')}
+              >
+                <div className="flex flex-col items-end">
+                  <span className="text-[10px] sm:text-xs text-gray-400 font-medium mb-1">
+                    {nextEvent.date} →
+                  </span>
+                  <span className="text-xs sm:text-sm text-gray-200 group-hover:text-white transition-colors line-clamp-2 max-w-[120px] sm:max-w-[200px]">
+                    {nextEvent.title}
+                  </span>
+                </div>
+                <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-lg overflow-hidden border border-gray-700/50 group-hover:border-gray-600/50 transition-all">
+                  <img 
+                    src={nextEvent.coverImage} 
+                    alt={nextEvent.title}
+                    className="w-full h-full object-cover filter grayscale group-hover:grayscale-0 transition-all"
+                  />
+                </div>
+              </button>
+            ) : <div />}
+          </div>
+        </div>
       </div>
     </>
   );

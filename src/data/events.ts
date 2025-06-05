@@ -20,7 +20,7 @@ export const events: Event[] = [
       { date: "22 июня 1941 г.", title: "Вторжение", description: "Германия нападает на СССР, начинается Великая Отечественная война." }
     ],
     photos: [],
-    coordinates: [53.9045, 27.5615] // Минск
+    coordinates: [49.8397, 24.0297] // Минск
   },
   {
     id: "encirclements-1941",
@@ -119,7 +119,7 @@ export const events: Event[] = [
       { date: "28 июня 1942 г.", title: "Начало операции «Блау»", description: "Немцы начинают наступление на юг СССР." }
     ],
     photos: [],
-    coordinates: [48.7080, 44.5133] // Сталинград (направление основного удара)
+    coordinates: [44.6095, 40.1050] // Сталинград (направление основного удара)
   },
   {
     id: "stalingrad-battle",
@@ -160,7 +160,7 @@ export const events: Event[] = [
       { date: "2 февраля 1943 г.", title: "Капитуляция Паулюса", description: "Окружённая армия Паулюса сдалась Красной армии." }
     ],
     photos: [],
-    coordinates: [48.7080, 44.5133] // Сталинград
+    coordinates: [48.723110, 44.150561] // Сталинград
   },
   // 1943
   {
@@ -218,7 +218,7 @@ export const events: Event[] = [
       { date: "сентябрь–ноябрь 1943 г.", title: "Форсирование Днепра", description: "Преодоление крупнейшей водной преграды и прорыв «Восточного вала»." }
     ],
     photos: [],
-    coordinates: [50.4501, 30.5234] // Киев (район форсирования)
+    coordinates: [50.001335, 31.016489] // Киев (район форсирования)
   },
   {
     id: "leningrad-lift",
@@ -237,7 +237,7 @@ export const events: Event[] = [
       { date: "27 января 1944 г.", title: "Прорыв блокады", description: "Полное снятие блокады Ленинграда." }
     ],
     photos: [],
-    coordinates: [59.9375, 30.3086] // Ленинград
+    coordinates: [59.849642, 30.186933] // Ленинград
   },
   {
     id: "bagration",
@@ -257,7 +257,7 @@ export const events: Event[] = [
       { date: "23 июня – 29 августа 1944 г.", title: "Операция «Багратион»", description: "Разгром группы армий «Центр» и освобождение Беларуси." }
     ],
     photos: [],
-    coordinates: [53.9045, 27.5615] // Минск
+    coordinates: [53.733933, 26.974381] // Минск
   },
   {
     id: "baltic-poland-liberation",
@@ -315,7 +315,7 @@ export const events: Event[] = [
       { date: "12 января 1945 г.", title: "Висло-Одерская операция", description: "Советские войска выходят к границам Германии." }
     ],
     photos: [],
-    coordinates: [52.2297, 21.0122] // Варшава
+    coordinates: [52.125335, 21.182411] // Варшава
   },
   {
     id: "budapest-liberation",
@@ -376,7 +376,7 @@ export const events: Event[] = [
       { date: "2 мая 1945 г.", title: "Падение Берлина", description: "Берлин капитулировал. Гарнизон сдался в плен." }
     ],
     photos: [],
-    coordinates: [52.5200, 13.4050] // Берлин
+    coordinates: [52.508410, 13.451930] // Берлин
   },
   {
     id: "hitler-death",
@@ -410,7 +410,7 @@ export const events: Event[] = [
       { date: "2 мая 1945 г.", title: "Захват Рейхстага", description: "Красное знамя водружено над Рейхстагом." }
     ],
     photos: [],
-    coordinates: [52.5200, 13.4050] // Берлин
+    coordinates: [52.518405, 13.377070] // Берлин
   },
   {
     id: "germany-capitulation",
@@ -429,6 +429,6 @@ export const events: Event[] = [
       { date: "8–9 мая 1945 г.", title: "Капитуляция Германии", description: "Подписание акта о капитуляции. Победа!" }
     ],
     photos: [],
-    coordinates: [52.5200, 13.4050] // Берлин
+    coordinates: [52.514453, 13.268426] // Берлин
   }
 ];
